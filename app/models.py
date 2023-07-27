@@ -35,4 +35,9 @@ class Book(models.Model):
         super().save()
 
 
-
+class Review(models.Model):
+    user_name = models.CharField(max_length=50)
+    user_surname = models.CharField(max_length=50)
+    review_field = models.TextField()
+    rating = models.IntegerField()
+    isMember = models.BooleanField()

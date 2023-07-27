@@ -9,7 +9,7 @@ li {
 
 #app {
     background: linear-gradient(skyblue, lightpink);
-    height: 1700px;
+    height: 2000px;
 }
 
 .header {
@@ -30,5 +30,17 @@ li {
     font-weight: bold;
     color: deeppink;
 }
+
+.book-btn-1 {
+    border-radius: 10px;
+    border: black solid 2px;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+
 
 

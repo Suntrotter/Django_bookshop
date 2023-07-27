@@ -1,5 +1,3 @@
-
-
 {% extends "includes/_base.html" %}
 {% load static %}
 
@@ -33,6 +31,9 @@
                 <p>UAH {{ book.price }}</p>
                 <div>
                 <a href={{book.slug}}><button class="book-btn">Buy</button></a>
+                </div>
+                <div>
+                    <a href="review"><button class="book-btn-1">Leave feedback</button></a>
                 </div>
             </div>
         </div>
